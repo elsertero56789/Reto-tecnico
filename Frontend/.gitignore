@@ -1,0 +1,43 @@
+# Dependencias
+/node_modules/
+/.pnpm-store/
+/.yarn/
+/.pnp
+.yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+# Producción
+/dist/
+/build/
+
+# Archivos de entorno
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Cache
+/.cache/
+/.parcel-cache/
+/.svelte-kit/
+
+# Logs
+*.log
+
+# IDE
+/.vscode/
+/.history/
+
+# Testing
+/coverage/
+/junitreports/
+/test-results/
+
+# Misc
+.DS_Store
+*.tmp
+*.bak
+*.swp
+*~.nib

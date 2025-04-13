@@ -1,0 +1,40 @@
+# Spring Boot - Java
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+.mvn/
+mvnw
+mvnw.cmd
+
+# IDEs
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+bin/
+nbproject/
+.nb-gradle/
+
+# Logs y archivos generados
+*.log
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# Archivos de configuración
+*.properties
+!application*.properties
+*.yml
+!application*.yml
+
+# Archivos específicos de NetBeans
+/nbdist/
+/nbbuild/
+/nbactions.xml
+/nb-configuration.xml
+
+# Archivos de Lombok
+/lombok.config
